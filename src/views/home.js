@@ -25,19 +25,6 @@ const Home = (props) => {
           ></div>
           <div data-thq="thq-navbar-btn-group" className="home-btn-group">
             <div className="home-socials1">
-              <button className="social button">
-                <a
-                  href="https://example.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    alt="image"
-                    src="/Icons/twitter.svg"
-                    className="home-image10"
-                  />
-                </a>
-              </button>
               <a
                 href="https://example.com/"
                 target="_blank"
@@ -72,7 +59,7 @@ const Home = (props) => {
               className="home-nav1"
             >
               <div className="home-container2">
-                <span className="home-logo2">Character</span>
+                <span className="home-logo2">Pot Pots</span>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon14">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -84,15 +71,13 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav2"
               >
-                <span className="home-text12">About</span>
+                <span className="home-text12">Offers</span>
                 <span className="home-text13">Features</span>
-                <span className="home-text14">Pricing</span>
-                <span className="home-text15">Team</span>
-                <span className="home-text16">Blog</span>
+                <span className="home-text14">Shop</span>
               </nav>
               <div className="home-container3">
-                <button className="home-login button">Login</button>
-                <button className="button">Register</button>
+                <button className="home-login button">Shop Now</button>
+                <button className="button">Contact Us</button>
               </div>
             </div>
             <div className="home-icon-group">
